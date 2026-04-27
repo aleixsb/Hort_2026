@@ -262,7 +262,7 @@ catalog:
   Tomàquet Cor de Bou de Liguria:
     description: Tomàquet italià de Ligúria en forma de cor, molt carnós i quasi sense
       llavors. Sabor dolç i delicat, excel·lent per menjar cru.
-    color: '#c0405a'
+    color: '#e74c3c'
     svg: <svg viewBox="0 0 36 36" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><circle
       cx="18" cy="21" r="11" fill="#e74c3c"/><ellipse cx="13" cy="17" rx="3" ry="4"
       fill="#f1948a" opacity="0.45"/><ellipse cx="18" cy="11" rx="5" ry="3" fill="#27ae60"/><rect
