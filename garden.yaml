@@ -259,6 +259,15 @@ catalog:
       cx="18" cy="21" r="11" fill="#e74c3c"/><ellipse cx="13" cy="17" rx="3" ry="4"
       fill="#f1948a" opacity="0.45"/><ellipse cx="18" cy="11" rx="5" ry="3" fill="#27ae60"/><rect
       x="17" y="7" width="2" height="4" rx="1" fill="#5d4037"/></svg>
+  Tomàquet Cor de Bou de Liguria:
+    description: Tomàquet italià de Ligúria en forma de cor, molt carnós i quasi sense
+      llavors. Sabor dolç i delicat, excel·lent per menjar cru.
+    color: '#c0405a'
+    svg: <svg viewBox="0 0 36 36" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><path
+      d="M18 27 C12 22 7 16 9 11 C10 7 14 6 18 11 C22 6 26 7 27 11 C29 16 24 22 18
+      27Z" fill="#c0405a"/><path d="M12 12 Q14 9 17 11" stroke="#d96070" stroke-width="0.8"
+      fill="none" opacity="0.6"/><ellipse cx="18" cy="9" rx="4.5" ry="2" fill="#27ae60"/><rect
+      x="17" y="6" width="2" height="4" rx="1" fill="#5d4037"/></svg>
   Carbassó Normal:
     description: Carbassó de varietat clàssica, allargat i verd, molt productiu i
       versàtil a la cuina.
@@ -448,11 +457,11 @@ grid:
   - Calendula
   9:
   - Calendula
-  - Tomàquet de Barbastro
-  - Tomàquet de Barbastro
-  - Tomàquet de Barbastro
-  - Tomàquet de Barbastro
-  - Tomàquet de Barbastro
+  - Tomàquet Cor de Bou de Liguria
+  - Tomàquet Cor de Bou de Liguria
+  - Tomàquet Cor de Bou de Liguria
+  - Tomàquet Cor de Bou de Liguria
+  - Tomàquet Cor de Bou de Liguria
   - Tomàquet de Barbastro
   - Tomàquet de Barbastro
   - Tomàquet de Barbastro
@@ -504,9 +513,9 @@ grid:
   - Calendula
   13:
   - Calendula
-  - Tomàquet Pit de Monja Cor de Bou
-  - Tomàquet Pit de Monja Cor de Bou
-  - Tomàquet Pit de Monja Cor de Bou
+  - Tomàquet Cor de Bou Pit de Monja
+  - Tomàquet Cor de Bou Pit de Monja
+  - Tomàquet Cor de Bou Pit de Monja
   - Tomàquet Esquena Verd
   - Tomàquet Esquena Verd
   - Tomàquet Esquena Verd
