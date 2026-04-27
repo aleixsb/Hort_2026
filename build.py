@@ -90,11 +90,10 @@ def build_legend(grid, catalog):
                 counts[plant] += 1
 
     parts = []
-    seen = []
-    for rows in grid.values():
-        for plant in rows:
-            if plant and plant not in seen:
-                seen.append(plant)
+    seen = sorted(
+        {plant for rows in grid.values() for plant in rows if plant},
+        key=lambda s: s.lower()
+    )
 
     for plant in seen:
         entry = catalog[plant]

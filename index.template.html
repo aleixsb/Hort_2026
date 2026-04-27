@@ -30,7 +30,7 @@
   .tip-arrow{position:absolute;left:50%;transform:translateX(-50%);border:6px solid transparent;pointer-events:none}
   .tip-arrow-border{position:absolute;left:50%;transform:translateX(-50%);border:7px solid transparent;pointer-events:none}
   .cell:not(.empty):hover .tip{display:block}
-  .legend{margin-top:1.75rem;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+  .legend{margin-top:1.75rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
   .legend-item{display:flex;align-items:center;gap:6px;font-size:12px;background:#fff;
                 border:1px solid #c8b98a;border-radius:20px;padding:4px 12px;cursor:pointer;transition:box-shadow .15s,border-color .15s,opacity .15s}
   .legend-item:hover{border-color:#8a7a5a}
