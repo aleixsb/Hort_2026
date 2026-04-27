@@ -84,6 +84,17 @@ catalog:
       d="M18 13 C20 17 20.5 22 19.5 27" stroke="#c0392b" stroke-width="0.8" fill="none"/><ellipse
       cx="18" cy="10" rx="4" ry="3" fill="#27ae60"/><rect x="17" y="6" width="2" height="5"
       rx="1" fill="#5d4037"/></svg>
+  Pebrot Nyora:
+    description: Pebrot rodó, sec i molt aromàtic de pell vermell fosca. Imprescindible
+      per a romescos, fideuades i salses tradicionals catalanes.
+    color: '#8b1a1a'
+    svg: <svg viewBox="0 0 36 36" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><ellipse
+      cx="18" cy="22" rx="11" ry="9" fill="#8b1a1a"/><ellipse cx="14" cy="18" rx="4"
+      ry="3" fill="#a52020" opacity="0.4"/><path d="M8 22 Q18 18 28 22" stroke="#6b1010"
+      stroke-width="0.9" fill="none"/><path d="M9 26 Q18 22 27 26" stroke="#6b1010"
+      stroke-width="0.7" fill="none"/><rect x="17" y="11" width="2" height="4" rx="1"
+      fill="#5d4037"/><path d="M18 12 Q22 9 24 11" stroke="#27ae60" stroke-width="1.2"
+      fill="none" stroke-linecap="round"/></svg>
   Maduixa:
     description: Fruita de primavera dolça i aromàtica. Necessita regar sovint i sol
       directe.
@@ -362,7 +373,7 @@ grid:
   - Albergínia Blanca
   - Albergínia Blanca
   - null
-  - null
+  - Pebrot Nyora
   - Enciam Roure
   - Enciam Trocadero Vermell
   - Enciam Trocadero Verd
@@ -380,7 +391,7 @@ grid:
   - Albergínia Blanca
   - Albergínia Blanca
   - null
-  - null
+  - Pebrot Nyora
   - Enciam Roure
   - Enciam Trocadero Vermell
   - Enciam Trocadero Verd
