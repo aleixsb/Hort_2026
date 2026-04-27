@@ -50,7 +50,7 @@ def build_cell(col, row, row_index, total_rows, plant_name, catalog):
     tip_style, arrow_style, arrow_border_style = tip_styles(row_index, total_rows)
 
     return (
-        f'<div class="cell" id="{cell_id}" style="background:{color}22;border-color:{color}">'
+        f'<div class="cell" id="{cell_id}" data-plant="{plant_name}" style="background:{color}22;border-color:{color}">'
         f'{svg}'
         f'<div class="tip" style="{tip_style}">'
         f"<b>{plant_name}</b>"
@@ -102,7 +102,7 @@ def build_legend(grid, catalog):
         svg = entry["svg"]
         count = counts[plant]
         parts.append(
-            f'<div class="legend-item">'
+            f'<div class="legend-item" data-plant="{plant}">'
             f'<div style="width:22px;height:22px;flex-shrink:0">{svg}</div>'
             f'<span class="legend-name" style="color:{color}">{plant}</span>'
             f'<span class="legend-count">({count})</span>'

@@ -32,9 +32,12 @@
   .cell:not(.empty):hover .tip{display:block}
   .legend{margin-top:1.75rem;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
   .legend-item{display:flex;align-items:center;gap:6px;font-size:12px;background:#fff;
-                border:1px solid #c8b98a;border-radius:20px;padding:4px 12px}
+                border:1px solid #c8b98a;border-radius:20px;padding:4px 12px;cursor:pointer;transition:box-shadow .15s,border-color .15s,opacity .15s}
+  .legend-item:hover{border-color:#8a7a5a}
+  .legend-item.active{border-color:#2c4a1e;box-shadow:0 0 0 2px rgba(44,74,30,.25);background:#f0ede6}
   .legend-name{font-weight:600}
   .legend-count{color:#999;font-size:11px}
+  .cell.dimmed{opacity:.12!important;transform:none!important}
   footer{text-align:center;margin-top:2rem;font-size:.75rem;color:#8a7a5a;font-style:italic}
 </style>
 </head>
@@ -53,5 +56,25 @@
   <div class="legend">{{LEGEND}}</div>
   <footer>Temporada 2026 · Capelles</footer>
 </div>
+<script>
+(function(){
+  var legend = document.querySelector('.legend');
+  if (!legend) return;
+  legend.addEventListener('click', function(e) {
+    var item = e.target.closest('.legend-item');
+    if (!item) return;
+    var plant = item.dataset.plant;
+    var isActive = item.classList.contains('active');
+    document.querySelectorAll('.legend-item').forEach(function(el) { el.classList.remove('active'); });
+    document.querySelectorAll('.cell:not(.empty)').forEach(function(el) { el.classList.remove('dimmed'); });
+    if (!isActive) {
+      item.classList.add('active');
+      document.querySelectorAll('.cell:not(.empty)').forEach(function(el) {
+        if (el.dataset.plant !== plant) el.classList.add('dimmed');
+      });
+    }
+  });
+})();
+</script>
 </body>
 </html>
