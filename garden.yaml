@@ -367,6 +367,17 @@ catalog:
       d="M18 6 C12 8 10 14 12 20 C13 24 16 29 19 30 C21 30.5 22 28 21 25 C19
       19 20 12 24 8 C22 6 20 5 18 6 Z" fill="#8e2e1f"/><path d="M15 8 L18 5
       L21 7 L20 10 L16 10 Z" fill="#4a7d2e"/></svg>
+  Alfàbrega:
+    description: Planta aromàtica imprescindible a la cuina mediterrània,
+      d'olor intens i sabor fresc. Li agrada la calor i el sol directe.
+    color: '#3f7d3a'
+    svg: <svg viewBox="0 0 36 36" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><path
+      d="M18 30 L18 12" stroke="#4a7d2e" stroke-width="2" fill="none"/><path
+      d="M18 20 C14 19 11 16 10 12 C15 12 18 15 18 20 Z" fill="#4a9b3e"/><path
+      d="M18 20 C22 19 25 16 26 12 C21 12 18 15 18 20 Z" fill="#3f7d3a"/><path
+      d="M18 13 C15 12 13 9 12 6 C16 6 18 8.5 18 13 Z" fill="#4a9b3e"/><path
+      d="M18 13 C21 12 23 9 24 6 C20 6 18 8.5 18 13 Z" fill="#3f7d3a"/><ellipse
+      cx="18" cy="7" rx="2.5" ry="4" fill="#5aaa3a"/></svg>
 grid:
   1:
   - Carbassa Gran
