@@ -206,8 +206,8 @@ catalog:
       x="17" y="7" width="2" height="4" rx="1" fill="#5d4037"/></svg>
   Tomàquet Caramba:
     description: Tomàquet de sabor intens i equilibrat, molt productiu i resistent
-      a malalties.
-    color: '#e74c3c'
+      a malalties. Fa tomàquets molt grans, fins a 1kg.
+    color: '#c0392b'
     svg: <svg viewBox="0 0 36 36" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><circle
       cx="18" cy="21" r="11" fill="#e74c3c"/><ellipse cx="13" cy="17" rx="3" ry="4"
       fill="#f1948a" opacity="0.45"/><ellipse cx="18" cy="11" rx="5" ry="3" fill="#27ae60"/><rect
@@ -333,11 +333,45 @@ catalog:
       stroke-width="1" fill="none"/><path d="M10 25 Q18 18 26 25" stroke="#5aaa3a"
       stroke-width="1" fill="none"/><circle cx="18" cy="19" r="5" fill="#a8d5a2" opacity="0.7"/><circle
       cx="18" cy="19" r="2" fill="#27ae60"/></svg>
+  Sindria:
+    description: Fruita d'estiu extremadament refrescant i sucosa, ideal per
+      menjar freda els dies de calor. Necessita molt sol i espai per
+      desenvolupar-se.
+    color: '#c0392b'
+    svg: <svg viewBox="0 0 36 36" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><path
+      d="M2 30 A16 16 0 0 1 34 30 Z" fill="#2d6a2f"/><path d="M5 30 A13 13 0 0
+      1 31 30 Z" fill="#f2f0e6"/><path d="M8 30 A10 10 0 0 1 28 30 Z" fill="#e0362f"/><circle
+      cx="14" cy="24" r="1" fill="#1a1a1a"/><circle cx="18" cy="27" r="1" fill="#1a1a1a"/><circle
+      cx="22" cy="23" r="1" fill="#1a1a1a"/><circle cx="16" cy="20" r="1" fill="#1a1a1a"/><circle
+      cx="21" cy="19" r="1" fill="#1a1a1a"/></svg>
+  Pebrot xino Chaotianjiao:
+    description: Bitxo xinès molt picant, de fruits petits i drets que apunten
+      cap amunt, típic de la cuina de Sichuan i Hunan. Creix en petits raïms
+      erectes.
+    color: '#c0392b'
+    svg: <svg viewBox="0 0 36 36" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><path
+      d="M10 14 C8 18 8 24 9 28 C9.5 30 10.5 31 11 31 C11.5 31 12.5 30 13 28
+      C14 24 14 18 12 14 Z" fill="#a9342a"/><path d="M9 27 L11 25 L13 27 L12
+      30 L10 30 Z" fill="#4a7d2e"/><path d="M23 14 C25 18 25 24 24 28 C23.5 30
+      22.5 31 22 31 C21.5 31 20.5 30 20 28 C19 24 19 18 21 14 Z" fill="#a9342a"/><path
+      d="M20 27 L22 25 L24 27 L23 30 L21 30 Z" fill="#4a7d2e"/><path d="M18 4
+      C15 9 14 17 15 26 C15.3 29 17 31.5 18 31.5 C19 31.5 20.7 29 21 26 C22 17
+      21 9 18 4 Z" fill="#c0392b"/><path d="M14 25 L18 21 L22 25 L20.5 30
+      L15.5 30 Z" fill="#5a9139"/></svg>
+  Pebrot xino Er Jing Tiao:
+    description: Varietat xinesa de Sichuan, allargada i penjant, amb picor
+      moderada i molt d'oli. Ideal per elaborar oli de xili i pasta de bitxo
+      (doubanjiang).
+    color: '#8e2e1f'
+    svg: <svg viewBox="0 0 36 36" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><path
+      d="M18 6 C12 8 10 14 12 20 C13 24 16 29 19 30 C21 30.5 22 28 21 25 C19
+      19 20 12 24 8 C22 6 20 5 18 6 Z" fill="#8e2e1f"/><path d="M15 8 L18 5
+      L21 7 L20 10 L16 10 Z" fill="#4a7d2e"/></svg>
 grid:
   1:
   - Carbassa Gran
-  - Carbassa Violina
-  - Carbassa Violina
+  - Carbassó de Nàpols
+  - Carbassa Gran
   - Meló
   - Meló
   2:
@@ -368,7 +402,7 @@ grid:
   - Pebrot del Piquillo
   - Pebrot Vermell
   - Pebrot Vermell
-  - null
+  - Enciam Maravella
   - Maduixa
   - Maduixa
   - Maduixa
@@ -380,7 +414,7 @@ grid:
   - Calendula
   - Albergínia Blanca
   - Albergínia Blanca
-  - null
+  - Enciam Maravella
   - Pebrot Nyora
   - Enciam Roure
   - Enciam Trocadero Vermell
@@ -389,7 +423,7 @@ grid:
   - Escarola
   - Espinacs
   - Espinacs
-  - Bleda
+  - Enciam Maravella
   - Bleda
   - Bleda
   - Enciam Maravella
@@ -398,7 +432,7 @@ grid:
   - Calendula
   - Albergínia Blanca
   - Albergínia Blanca
-  - null
+  - Enciam Maravella
   - Pebrot Nyora
   - Enciam Roure
   - Enciam Trocadero Vermell
@@ -407,35 +441,35 @@ grid:
   - Escarola
   - Espinacs
   - Espinacs
-  - null
+  - Bleda
   - Bleda
   - Bleda
   - Enciam Maravella
   - Enciam Maravella
   6:
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
+  - Enciam Roure
+  - Alfàbrega
+  - Alfàbrega
+  - Pebrot xino Chaotianjiao
+  - Pebrot xino Chaotianjiao
+  - Pebrot xino Er Jing Tiao
+  - Pebrot xino Er Jing Tiao
+  - Pebrot xino Er Jing Tiao
+  - Pebrot xino Er Jing Tiao
   - Carbassó de Nàpols
   - Carbassó de Nàpols
   - Carbassó de Nàpols
   - Calendula
   7:
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
+  - Enciam Roure
+  - Alfàbrega
+  - Alfàbrega
+  - Pebrot xino Chaotianjiao
+  - Pebrot xino Chaotianjiao
+  - Pebrot xino Er Jing Tiao
+  - Pebrot xino Er Jing Tiao
+  - Pebrot xino Er Jing Tiao
+  - Pebrot xino Er Jing Tiao
   - Carbassó de Nàpols
   - Carbassó de Nàpols
   - Carbassó de Nàpols
@@ -455,7 +489,7 @@ grid:
   - Tomàquet de Montserrat
   - Calendula
   9:
-  - Calendula
+  - Enciam Roure
   - Tomàquet Cor de Bou de Liguria
   - Tomàquet Cor de Bou de Liguria
   - Tomàquet Cor de Bou de Liguria
@@ -597,16 +631,16 @@ grid:
   - Pèsols Negre del Berguedà
   - Pèsols Negre del Berguedà
   20:
-  - Espinacs
+  - Bledes
   - Col
   - Col
   - Col
   - Col
   - Col
   - null
-  - Enciam de Sucre Negre
+  - Meló
+  - Meló
+  - Síndria
+  - Síndria
   - null
   - null
-  - null
-  - null
-  - Enciam Roure
